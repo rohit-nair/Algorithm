@@ -159,9 +159,9 @@
 - Ex: Heap
 
 
-                unsorted array      sorted array        balanced tree
-    insert          O(1)                O(n)             O(logn)
-    min*             O(1)                O(1)                O(1)
-    delete          O(n)                O(1)                O(logn)
+                    unsorted array      sorted array        balanced tree
+        insert      O(1)                O(n)                O(logn)
+        min*        O(1)                O(1)                O(1)
+        delete      O(n)                O(1)                O(logn)
 
 - For min: store the min in a pointer variable and update on deletion/insertion
